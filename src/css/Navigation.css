@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.boutton {
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    z-index: 200; 
+    margin-top: 36px;
+}
+
+.barre {
+    width: 50px;
+    height: 9px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    transition: background-color 0.5s ease-in-out;
+}
+
+
+.menu-icon {
+    width: 25px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mister{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.separator {
+    border-top: 5px solid white;
+    width: 150px; 
+}
+
+.separator1{
+    border-bottom: 5px solid white;
+}
+
+#elpapa {
+    position: fixed;
+    transition: left 0.5s , background-color 0.5s ease-in-out;
+    z-index: 1;
+    border-radius: 10px;
+    margin: 0;
+    width: 20%;
+    background: #00ABE4;
+    margin-top: 1%;
+    text-align: center;
+    padding-bottom: 30px;
+    left: -100%;
+}
+
+.theme-switch-container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.theme-switcher {
+    position: relative;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.theme-switcher-container {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background-color: #00ABE4;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.theme-switcher-circle {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+    background-image: url("https://icons-for-free.com/iconfiles/png/512/shine+sun+sunny+weather+icon-1320183301337979553.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.theme-switch-container.dark .theme-switcher-circle {
+    transform: translateX(100%);
+    background-image: url("https://icons-for-free.com/iconfiles/png/512/moon-1324760534300403341.png");
+}

@@ -1,0 +1,50 @@
+.there{
+    background-color: #00ABE4;
+    color: white;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: fixed;
+    margin-top: 14%;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center;
+    right: -100%;
+    transition: right 1s ease-in-out;
+}
+
+.button{
+    margin-bottom: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+    border-radius: 9px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    background-color: lightgrey;
+}
+
+.sambo{
+    width: 70px;
+}
+
+.samba{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.massamba{
+    right: 0;
+    bottom: -197%;
+    position: absolute;
+}
+
+.fleche{
+    font-size: 25px;
+}

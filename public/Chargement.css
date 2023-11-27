@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: #B3E0F2; 
+}
+
+.loading-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.rotating-logo {
+    width: 100px; 
+    animation: rotation 2s infinite linear; 
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.hey {
+    font-weight: bold;
+    font-size: 30px;
+}

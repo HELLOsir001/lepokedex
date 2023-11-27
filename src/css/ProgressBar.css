@@ -1,0 +1,22 @@
+.progressContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #00ABE4; 
+  z-index: 1;
+  padding-bottom: 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.progress {
+  height: 100%;
+  width: 0; 
+  background-color: white; 
+  z-index: 1;
+  margin-top: 0;
+  padding-bottom: 10px;
+  z-index: 1;
+  transition: background-color 0.5s ease-in-out;
+}

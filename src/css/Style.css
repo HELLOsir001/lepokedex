@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.conteneur{
+    padding: 20px; 
+    border-radius: 40px;
+    margin-top: 10px;
+}
+
+.boite {
+    border-radius: 20px;
+    transition: background-color 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.boite:hover {
+    background-color: #8ED4F5; 
+}
+
+.boite-enter {
+    opacity: 0;
+}
+  
+.boite-enter-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+body{
+    background:#B3E0F2;
+    font-family: "Poppins", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease-in-out;
+    
+}
+
+.titre{
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.io{
+    margin-top: 20px;
+}
+
+.elpepe{
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    width: 100px; 
+    height: auto; 
+    margin-top: 9px;
+}
+
+.iconic:hover{
+    background-color: #8ED4F5;
+}
+
+header{
+    background-color: #00ABE4;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.elpipi{
+    color: white;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+footer{
+    background-color: #00ABE4;
+    padding-bottom: 8px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.elpopo{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mon{
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.theme-switch-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.face-cachée{
+    border-radius: 20px;
+    height: 205px;
+}
+
+.flipped {
+    perspective: 1000px; /* Ajuste également la perspective ici */
+  }
